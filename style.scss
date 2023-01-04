@@ -1,0 +1,101 @@
+@import "vars";
+@import "mobile";
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap'); 
+
+* {
+    box-sizing: border-box;
+    margin: 0px;
+    padding: 0px;
+   }
+
+body {
+    background-color: $Red;
+    background-image: url("images/bg-intro-desktop.png");
+    font-family: Poppins;
+    font-size: 16px;
+}
+.container {
+    width: 80%;
+    height: 90%;
+    margin: 5% auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.btnform {
+    border-radius: 7px;
+    height: 4em;
+    margin: 5px auto;
+    font-size: 12px;
+    padding: 2em;
+    font-weight: 600;
+}
+.left {
+    width: 50%;
+    height: 400px;
+    padding: 1rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    #up {
+        font-size: 2.5em;
+        font-weight: 700;
+        color: white;
+        line-height: 1em;
+        margin-bottom: 1em;
+    }
+    #down {
+        font-size: 1em;
+        font-weight: 400;
+        color: white;
+    }
+}
+.right {
+    width: 50%;
+    padding: 1rem;
+    #up {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        background-color: $Blue;
+        margin-bottom: 1em;
+        color: white;
+        @extend .btnform;
+        #try {
+            font-weight: 400;
+        }
+    }
+    #down {
+        background-color: white;
+        border-radius: 5px;
+        form {
+            padding: 1em 2em;
+        }
+        .info {
+            width: 100%;
+            border: 1px solid $GrayishBlue;
+            @extend .btnform;
+        }
+        .btn {
+            background-color: $Green;
+            color: white;
+            font-weight: 500;
+            font-size: 12px;
+            display: flex;
+        justify-content: center;
+        align-items: center;
+        }
+        p {
+            font-size: 10px;
+            color: $GrayishBlue;
+            text-align: center;
+            height: 4em;
+            #term {
+                color: $Red;
+                font-weight: 600;
+            }
+        }
+    }
+}
+

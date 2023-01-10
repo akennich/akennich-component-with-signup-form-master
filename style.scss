@@ -38,14 +38,14 @@ body {
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    #up {
+    #upleft {
         font-size: 2.5em;
         font-weight: 700;
         color: white;
         line-height: 1em;
         margin-bottom: 1em;
     }
-    #down {
+    #downleft {
         font-size: 1em;
         font-weight: 400;
         color: white;
@@ -54,7 +54,7 @@ body {
 .right {
     width: 50%;
     padding: 1rem;
-    #up {
+    #upright {
         display: flex;
         justify-content: center;
         align-items: center;
@@ -66,7 +66,7 @@ body {
             font-weight: 400;
         }
     }
-    #down {
+    #downright {
         background-color: white;
         border-radius: 5px;
         form {

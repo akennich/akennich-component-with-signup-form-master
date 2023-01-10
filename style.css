@@ -18,7 +18,7 @@
     height: 70%;
     padding: 10px 0;
   }
-  .container .right #up {
+  .container .right #upright {
     text-align: center;
   }
 }
@@ -44,7 +44,7 @@ body {
   align-items: center;
 }
 
-.btnform, .right #down .info, .right #up {
+.btnform, .right #downright .info, .right #upright {
   border-radius: 7px;
   height: 4em;
   margin: 5px auto;
@@ -62,14 +62,14 @@ body {
   justify-content: center;
   align-items: center;
 }
-.left #up {
+.left #upleft {
   font-size: 2.5em;
   font-weight: 700;
   color: white;
   line-height: 1em;
   margin-bottom: 1em;
 }
-.left #down {
+.left #downleft {
   font-size: 1em;
   font-weight: 400;
   color: white;
@@ -79,7 +79,7 @@ body {
   width: 50%;
   padding: 1rem;
 }
-.right #up {
+.right #upright {
   display: flex;
   justify-content: center;
   align-items: center;
@@ -87,21 +87,21 @@ body {
   margin-bottom: 1em;
   color: white;
 }
-.right #up #try {
+.right #upright #try {
   font-weight: 400;
 }
-.right #down {
+.right #downright {
   background-color: white;
   border-radius: 5px;
 }
-.right #down form {
+.right #downright form {
   padding: 1em 2em;
 }
-.right #down .info {
+.right #downright .info {
   width: 100%;
   border: 1px solid hsl(246deg, 25%, 77%);
 }
-.right #down .btn {
+.right #downright .btn {
   background-color: hsl(154deg, 59%, 51%);
   color: white;
   font-weight: 500;
@@ -110,13 +110,13 @@ body {
   justify-content: center;
   align-items: center;
 }
-.right #down p {
+.right #downright p {
   font-size: 10px;
   color: hsl(246deg, 25%, 77%);
   text-align: center;
   height: 4em;
 }
-.right #down p #term {
+.right #downright p #term {
   color: hsl(0deg, 100%, 74%);
   font-weight: 600;
 }/*# sourceMappingURL=style.css.map */
